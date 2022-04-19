@@ -1,0 +1,80 @@
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  flex-direction: row !important;
+}
+
+.bootscreen-container, .monitorscreen-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  transition: all ease-in-out .5s;
+  min-width: 100vw;
+}
+
+.bootscreen-container-transitioning {
+  margin-left: -100%;
+}
+
+.bootscreen-title {
+  font-size: 4rem !important;
+  margin: 3rem;
+}
+
+.proceed-btn {
+  margin: 2rem;
+}
+
+.monitorscreen-header {
+  background-color: #001529 !important;
+  color: white !important;
+}
+
+.ant-page-header-heading-title {
+  color: white !important;
+}
+
+.monitorscreen-row {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.monitorscreen-column {
+  min-width: 25rem !important;
+}
+
+.term-tracker-container {
+  max-width: 50rem;
+  margin: 2rem;
+}
+
+.ant-list-header {
+  position: sticky;
+  top: 0;
+  background-color: #f0f2f5 !important;
+  z-index: 1;
+}
+
+.ant-list-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #f0f2f5 !important;
+  z-index: 1;
+}
+
+.term-tracker-list {
+  height: 50rem;
+  overflow: auto;
+}
+
+.add-button {
+  margin: 2rem;
+  height: 50rem !important;
+  width: 4rem !important;
+}
+
+
